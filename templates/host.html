@@ -1,0 +1,18 @@
+				<div class="drop-shadow {host.status}"><h2>{hostname}</h2>
+					<span style="position:relative;top:-7px;">
+						<span class="h2">Load: </span>
+						<span class="h1">{uplo.load5}&nbsp;&nbsp;</span>
+						<span class="h2">Free RAM: </span>
+						<span class="h1">{ram.unused}MB/</span>
+						<span class="h2">{ram.total}MB</span>
+					</span>
+					<br />
+					<span class="h4">Uptime: {uptime}&nbsp;|&nbsp;Disk Free: {disk.total.avail}/{disk.total.total}GB&nbsp;|&nbsp;Processes: {ps.allps}</span>
+					<br>
+					<span class="updated">Updated: {timestamp}|</span>
+					<div style="position:relative; left:-230px; top:-70px;">
+						<ul id="nav">
+							{process}
+						</ul>
+					</div>
+				</div>

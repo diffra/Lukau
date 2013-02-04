@@ -1,0 +1,11 @@
+outfile: ./output.html
+servers:
+  Phobos: 
+    host: localhost
+    port: 12918
+  Deimos:
+    host: james.bertelson.me
+    port: 12908
+  Luna:
+    host: localhost
+    port: 12919
